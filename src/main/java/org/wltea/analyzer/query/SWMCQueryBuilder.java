@@ -123,8 +123,8 @@ public class SWMCQueryBuilder {
     }
 
     // 借助lucene queryparser 生成SWMC Query
-    QueryParser qp = new QueryParser(Version.LUCENE_43, fieldName, new StandardAnalyzer(
-        Version.LUCENE_43));
+    QueryParser qp = new QueryParser(Version.LUCENE_48, fieldName, new StandardAnalyzer(
+        Version.LUCENE_48));
     qp.setDefaultOperator(QueryParser.AND_OPERATOR);
     qp.setAutoGeneratePhraseQueries(true);
 
