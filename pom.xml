@@ -4,7 +4,7 @@
 
   <groupId>org.wltea.analyzer</groupId>
   <artifactId>ikanalyzer</artifactId>
-  <version>5.0.2-mdh</version>
+  <version>5.0.2-md</version>
   <packaging>jar</packaging>
 
   <name>IKAnalyzer</name>
